@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RockPaperScissors</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div id="main">
+    <div id="winner">
+      <h2>TRY!</h2>
+</div>
+<div id="lower">
+  <div id="you"  class="part">
+    <div id="youheading" ><h1 class="heading">your choice</h1></div>
+    <button id="rock" onclick="response('rock')" class="youbutton"><img src="./images/rock.png" alt=""></button>
+         <button id="paper" onclick="response('paper')" class="youbutton"><img src="./images/paper.jpeg" alt=""></button>
+         <button id="scissors" onclick="response('scissors')" class="youbutton"><img src="./images/scissor.jpg" alt=""></button>
+  </div>
+         
+  <div id="computer" class="part">
+       <div id="compheading" class="heading"> <h1 class="heading">Computers choice</h1></div>
+    <div id="compchoice"  >
+     <img src="./images/robot.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+
+
+
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+</html>
