@@ -17,7 +17,7 @@ const forRock = (ran) => {
   }
   else {
     win.innerHTML = `<h2> YOU Won!!</h2>`
-    celeb();
+  
   }
 
 }
